@@ -1,15 +1,24 @@
 [tool.poetry]
-name = "bd-project"
+name = "bd_project"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Elia Tiso", "Valeria Ferlin", "Mattia Piazza"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.13"
 pandas = "^2.2.3"
 ipykernel = "^6.29.5"
+numpy = "^2.2.1"
+matplotlib = "^3.10.0"
+seaborn = "^0.13.2"
+scikit-learn = "^1.6.0"
+cafaeval = "^1.2.1"
 
+
+[tool.poetry.group.dev.dependencies]
+rich = "^13.9.4"
+ruff = "^0.8.6"
 
 [build-system]
 requires = ["poetry-core"]
