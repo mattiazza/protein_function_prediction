@@ -1,0 +1,14 @@
+protein_function_prediction.pdf
+data/
+.DS_Store
+
+# Ignore virtual environments
+.env
+.venv
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Poetry's lock file
+poetry.lock
