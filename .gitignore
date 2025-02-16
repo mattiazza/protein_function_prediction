@@ -1,6 +1,7 @@
 protein_function_prediction.pdf
 data/
 .DS_Store
+bd_project/*.pth
 
 # Ignore virtual environments
 .env
